@@ -97,7 +97,7 @@ export default function ChatLayout() {
 
       {/* RIGHT CHAT AREA */}
       <div
-        className={`flex-1 h-[100dvh] flex flex-col bg-[#f6f2eb] transition-transform duration-300
+        className={`flex-1 h-[100dvh] flex flex-col bg-[#f6f2eb] overflow-hidden transition-transform duration-300
         ${isMobileChatOpen ? "translate-x-0" : "translate-x-full md:translate-x-0"}`}
       >
         {currentUser && selectedChat && (
